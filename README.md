@@ -1,5 +1,5 @@
 # CNN-XGBOOST-HYBRID-MODEL
-# 🧠 Brain Tumor Classification: Hybrid CNN-XGBoost Architecture
+#  Brain Tumor Classification: Hybrid CNN-XGBoost Architecture
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
@@ -7,7 +7,7 @@
 ![Accuracy](https://img.shields.io/badge/Accuracy-99.26%25-brightgreen)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B)
 
-## 📌 Overview
+##  Overview
 This project implements a state-of-the-art **Hybrid Medical Image Classification System** to detect brain tumors from MRI scans. 
 
 Unlike standard deep learning approaches, this solution uses a **Fine-Tuned MobileNet (CNN)** as a powerful feature extractor and feeds those features into an **XGBoost Classifier**. This hybrid approach combines the spatial feature learning of CNNs with the gradient boosting power of XGBoost, achieving a remarkable **99.26% test accuracy**.
@@ -20,7 +20,7 @@ The model classifies MRI scans into four classes:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 * **Hybrid Architecture:** MobileNetV2 backbone (with custom Swish activation) + XGBoost Classifier.
 * **High Performance:** Outperforms standard CNN implementations with **99.26% Accuracy**.
 * **Web Interface:** Includes a user-friendly **Streamlit** web app for instant predictions.
@@ -29,7 +29,7 @@ The model classifies MRI scans into four classes:
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 The model was evaluated on a comprehensive test set of **1,345 MRI images**.
 
@@ -51,7 +51,7 @@ The model was evaluated on a comprehensive test set of **1,345 MRI images**.
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```text
 brain-tumor-classification/
